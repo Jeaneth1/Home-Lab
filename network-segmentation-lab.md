@@ -138,7 +138,7 @@ While testing, I asked myself a fair question: since my rules were written for I
 - Ran `ip a` on Kali and found only a `fe80::...` address on the LAN-facing interface. That's a link-local IPv6 address, auto-assigned by the OS for same-segment communication only. It's not a routable, internet-capable address.
 - Confirmed with `ping -6` to the home router's address: 6 sent, 0 received, 100% loss.
 - Conclusion: this isn't a firewall bypass. IPv6 isn't fully configured for routing on this segment, so there's no functional IPv6 path for anything to travel through in the first place. Not having an IPv6-specific block rule is a scope limitation of this test (IPv4 only), not an active security gap, since there's currently no live IPv6 channel to exploit.
-- Noting this here as a known limitation and something to revisit if IPv6 ever gets enabled on this segment.
+- Double check that wasn't a known limitation and something to revisit if IPv6 ever gets enabled on this segment.
 
 ---
 
