@@ -1,7 +1,5 @@
 # Home Lab: Network Segmentation with OPNsense
 
-**Context:** SOC analyst home lab built on Proxmox VE 8.4 (Ryzen 7 3700X, 16GB RAM, NVMe + HDD storage). Existing VMs: Wazuh SIEM (all-in-one), Kali Linux, and Metasploitable2, all on vmbr0 with confirmed network connectivity. Tailscale used for remote access.
-
 **Goal of this phase:** Deploy a firewall and network segmentation layer between the attack/target VMs (Kali, Metasploitable2) and the rest of the home network, then prove it actually works with a before and after test. This directly targets a "Network/Perimeter Security, including Next-Gen Firewalls" preferred qualification on a cybersecurity internship JD.
 
 ---
