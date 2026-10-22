@@ -8,3 +8,4 @@ A collection of my experience learning cybersecurity and infrastructure projects
 
 - [Network Segmentation with OPNsense](network-segmentation/README.md)
 - [SSH Brute Force Detection with Wazuh](ssh-brute-force-detection/README.md)
+- [Restricted Zone Segmentation with OPNsense](restricted-zone/README.md)
